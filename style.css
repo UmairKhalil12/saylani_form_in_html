@@ -1,0 +1,57 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset{
+    border-color: black;
+}
+
+.login{
+    background-color: rgb(6, 171, 227);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+   font-size: large;
+}
+
+.login:hover{
+    background-color: green;
+}
+
+.submit{
+    background-color: rgb(6, 171, 227);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+   font-size: large;
+
+}
+.submit:hover{
+    background-color: green;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:rgb(6, 171, 227);
+    overflow: hidden;
+}
+li {
+    float: left;
+  }
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+li a:hover {
+    background-color: green;
+  }
